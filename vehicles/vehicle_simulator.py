@@ -16,7 +16,7 @@ class Vehicle:
         self.vehicle_type = vehicle_type
         self.v2v_enabled = v2v_enabled
         self.is_running = True
-        self.server_url = "http://v2v.mulearnscet.in"
+        self.server_url = "https://v2v.mulearnscet.in"
         self.collision_count = 0
         self.near_miss_count = 0
         self.emergency_stops = 0
@@ -359,10 +359,10 @@ class TrafficSimulator:
 
 if __name__ == '__main__':
     # Run simulation with mixed traffic
-    # You can adjust these numbers to see different scenarios
+    # Increased numbers for denser traffic
     simulator = TrafficSimulator(
-        num_v2v_vehicles=8,      # Smart vehicles with V2V
-        num_non_v2v_vehicles=8,  # Legacy vehicles without V2V
-        num_emergency=2          # Emergency vehicles
+        num_v2v_vehicles=30,      # More smart vehicles with V2V
+        num_non_v2v_vehicles=30,  # More legacy vehicles without V2V
+        num_emergency=5           # More emergency vehicles
     )
     simulator.start_simulation()

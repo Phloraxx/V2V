@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Server URL
-SERVER_URL = "http://vsv.mulearnscet.in"
+SERVER_URL = "https://v2v.mulearnscet.in"
 
 # Dashboard Title
 st.title("��� V2V Traffic Management System Dashboard")
