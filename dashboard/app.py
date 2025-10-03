@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Server URL
-SERVER_URL = "http://localhost:5000"
+SERVER_URL = "http://vsv.mulearnscet.in"
 
 # Dashboard Title
 st.title("��� V2V Traffic Management System Dashboard")

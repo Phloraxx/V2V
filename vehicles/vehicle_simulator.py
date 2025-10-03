@@ -16,7 +16,7 @@ class Vehicle:
         self.vehicle_type = vehicle_type
         self.v2v_enabled = v2v_enabled
         self.is_running = True
-        self.server_url = "http://localhost:5000"
+        self.server_url = "http://v2v.mulearnscet.in"
         self.collision_count = 0
         self.near_miss_count = 0
         self.emergency_stops = 0
